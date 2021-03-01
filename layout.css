@@ -1,0 +1,454 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+  .menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:white;
+    padding:0 10px;
+    line-height:40px; 
+}
+.menu>ul{ 
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    background-color:black;
+    text-align:center;
+}
+.menu>ul>li>a{
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding:10px ;
+    line-height:40px ;
+}
+.menu ul ul{
+    position:absolute;
+    display:none;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    width:200px;
+    background-color:white;
+    box-shadow:0 0 1px gray;} 
+.menu ul ul a{ 
+    display:block;
+    border-radius:3px;
+    width:200px;
+    background-color:white;
+    box-shadow:0 0 1px gray;
+    line-height:30px;
+    color: gray;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0 10px;}
+.menu>ul>li:hover>ul{ 
+    display:block;
+z-index: 1;}
+.menu ul ul a:hover{ 
+    background-color: black;
+    color:white;}
+    .anh{
+      text-align: center;
+    }
+    .col-25{
+      width:30%;
+      float: left;
+      position:relative;
+  }
+  .prod{
+      border-radius:5px;
+      box-shadow:0 0 5px gray;
+      margin-left:120px;
+      margin-bottom: 30px;
+      margin-top: 10px;
+      margin-right: 10px;
+      padding:10px;
+            position:relative;
+  }
+  h2{
+      font-variant:small-caps;
+      color: gray;
+      text-align: center;
+      }
+  .prod>.image{
+      max-width:100%;
+      height: 300px;
+      margin-bottom:20px;
+      text-align: center;
+  }
+  .prod>.price{
+      position:absolute;
+      left:5px;
+      bottom:5px;
+      font-family:Impact;
+      font-size:20px;
+      color:orange;
+      float: left;
+  }
+  .font{
+    font-variant: small-caps;
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+    margin: 0 20px;
+}       
+.top-right{
+    Position:absolute;
+    height: 50px;
+    Top:50px;
+    right:100px;
+    border-bottom: 2px dotted;
+                  }
+                  .container{
+                    position: relative;
+                  }
+                  .top{
+                    Position:absolute;
+                    height: 50px;
+                    Top:120px;
+                    Right:100px;
+                  
+                    
+                                  }
+   
+
+              
+                footer{text-align: center;}
+                
+                   
+                  .box{
+                    margin: 10px ;
+                    width: 100px;
+                    height: 50px;
+                    position: absolute;
+                    left: 400px;
+                    bottom: 50px;
+                  }
+                  header{
+                      position: relative;
+                  }
+                  .container-1{
+                    width: 300px;
+                    vertical-align: middle;
+                    white-space: nowrap;
+                    position: relative;
+                  }
+                  .container-1 input#search{
+                    width: 300px;
+                    height: 50px;
+                    background:black;
+                    font-size: 10pt;
+                    float: left;
+                    color:white;
+                    padding-left: 45px;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    border-radius: 5px;
+                  }
+                  .container-1 .icon{
+                    position: absolute;
+                    top: 50%;
+                    margin-left: 17px;
+                    margin-top: 17px;
+                    z-index: 1;
+                    color:black;
+                  }
+                  .container-1 input#search::-webkit-input-placeholder {
+                    color: #65737e;
+                 }
+                  
+                 .container-1 input#search:-moz-placeholder { /* Firefox 18- */
+                    color: #65737e;  
+                 }
+                  
+                 .container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+                    color: #65737e;  
+                 }
+                  
+                 .container-1 input#search:-ms-input-placeholder {  
+                    color: #65737e;  
+                 }
+                 .container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+                  outline:none;
+                  background:black;
+                }
+                .hotline-phone-ring-circle{width:85px;height:85px;top:10px;left:10px;position:absolute;background-color:transparent;border-radius:100%;border:2px solid black;-webkit-animation:phonering-alo-circle-anim 1.2s infinite ease-in-out;animation:phonering-alo-circle-anim 1.2s infinite ease-in-out;transition:all .5s;-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%;opacity:.5}
+.hotline-phone-ring-circle-fill{width:55px;height:55px;top:22px;left:26px;position:absolute;background-color:black;border-radius:100%;border:2px solid transparent;-webkit-animation:phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;animation:phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;transition:all .5s;-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%}
+.hotline-phone-ring-img-circle{background-color:black;width:33px;height:33px;top:33px;left:37px;position:absolute;background-size:20px;border-radius:100%;border:2px solid transparent;-webkit-animation:phonering-alo-circle-img-anim 1s infinite ease-in-out;animation:phonering-alo-circle-img-anim 1s infinite ease-in-out;-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;align-items:center;justify-content:center}
+.hotline-phone-ring-img-circle .pps-btn-img{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}
+.hotline-phone-ring-img-circle .pps-btn-img img{width:20px;height:20px}
+
+.hotline-bar{position:absolute;background:#e88a25;background:-webkit-linear-gradient(left,#e88a25,#d40000);background:-o-linear-gradient(right,#e88a25,#d40000);background:-moz-linear-gradient(right,#e88a25,#d40000);background:linear-gradient(to right,#e88a25,#e4212a);height:40px;width:200px;line-height:40px;border-radius:3px;padding:0 10px;background-size:100%;cursor:pointer;transition:all .8s;-webkit-transition:all .8s;z-index:9;box-shadow:0 14px 28px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.1);border-radius:50px !important;border:2px solid #fff;left:33px;bottom:37px}.hotline-bar>a{color:#fff;text-decoration:none;font-size:18px;font-weight:900;text-indent:50px;display:block;letter-spacing:1px;line-height:38px;font-family:Arial}.hotline-bar>a:hover,.hotline-bar>a:active{color:#fff}@-webkit-keyframes phonering-alo-circle-anim{0%{-webkit-transform:rotate(0) scale(.5) skew(1deg);-webkit-opacity:.1}30%{-webkit-transform:rotate(0) scale(.7) skew(1deg);-webkit-opacity:.5}100%{-webkit-transform:rotate(0) scale(1) skew(1deg);-webkit-opacity:.1}}@-webkit-keyframes phonering-alo-circle-fill-anim{0%{-webkit-transform:rotate(0) scale(.7) skew(1deg);opacity:.6}50%{-webkit-transform:rotate(0) scale(1) skew(1deg);opacity:.6}100%{-webkit-transform:rotate(0) scale(.7) skew(1deg);opacity:.6}}@-webkit-keyframes phonering-alo-circle-img-anim{0%{-webkit-transform:rotate(0) scale(1) skew(1deg)}10%{-webkit-transform:rotate(-25deg) scale(1) skew(1deg)}20%{-webkit-transform:rotate(25deg) scale(1) skew(1deg)}30%{-webkit-transform:rotate(-25deg) scale(1) skew(1deg)}40%{-webkit-transform:rotate(25deg) scale(1) skew(1deg)}50%{-webkit-transform:rotate(0) scale(1) skew(1deg)}100%{-webkit-transform:rotate(0) scale(1) skew(1deg)}}@media (max-width:768px){.hotline-bar{display:none}}
+
+.hotline-phone-ring-img-circle .pps-btn-img img {
+    width: 20px;
+    height: 20px;
+}
+img {
+    border: none;
+}
+
+
+.hotline-phone-ring-wrap {
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    z-index: 1111111;
+}
+
+.hotline-phone-ring {
+    position: relative;
+    visibility: visible;
+    background-color: transparent;
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+    z-index: 11;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transition: visibility .5s;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+
+
+.float-icon-hotline {
+    display: block;
+    width: 40px;
+    position: fixed;
+    bottom: 85px;
+    left: 33px;
+    z-index: 999999;
+}
+	
+
+.float-icon-hotline ul {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.float-icon-hotline ul li {
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.float-icon-hotline ul li a#messengerButton {
+    padding: 0px !important;
+    background: transparent !important;
+    border: 0px !important;
+}
+@media only screen and (min-width: 960px)
+{
+	.float-icon-hotline ul li .fa {
+		background-size: contain !important;
+	}
+}
+.float-icon-hotline ul li .fa-phone {
+    background-color: black;
+}
+.float-icon-hotline ul li .fa {
+    background-color: black;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 36px;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    border: 2px solid #fff;
+}
+.animated.infinite {
+    animation-iteration-count: infinite;
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.tada {
+    animation-name: tada;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.float-icon-hotline ul li span {
+  display: inline-block;
+  padding: 0;
+  background-color: #ff6a00;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  height: 40px;
+  line-height: 36px;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  z-index: 0;
+  width: 0;
+  overflow: hidden;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-color: #ff6a00;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+  font-weight: 400;
+  white-space: nowrap;
+  opacity: 0;
+}
+
+
+ul.left-icon.hotline {
+    margin-left: 0px !important;
+}
+
+
+.float-icon-hotline ul li .fa-zalo {
+    background: url(https://netweb.vn/img/hotline/zalo.png) center center no-repeat;
+}
+.float-icon-hotline ul li .fa-zalo:hover {
+    background: #ef0303 url(https://netweb.vn/img/hotline/zalo.png) center center no-repeat;opacity:.5;
+}
+.float-icon-hotline ul li .fa-messenger {
+    background:  url(https://netweb.vn/img/hotline/fb.png) center center no-repeat;
+}
+.float-icon-hotline ul li .fa-messenger:hover {
+    background: rgb(92, 91, 91) url(https://netweb.vn/img/hotline/fb.png) center center no-repeat;opacity:.5;
+}
+.container{
+  max-width: 6000px;
+  margin: 0px auto;
+
+}
+.container > aside{
+  background-color:white;
+  float:left;
+}
+.login-form{
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 15px;
+  border: 2px dotted #cccccc;
+  border-radius: 10px;
+}
+h1{
+  color: rgb(92, 91, 91);
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.input-box{
+  margin-bottom: 10px;
+}
+.input-box input{
+  padding: 7.5px 0px;
+  width: 100%;
+  border: 1px solid #cccccc;
+  outline: none;
+}
+.btn-box{
+  text-align: right;
+  margin-top: 30px;
+  padding: 4px 0px;
+  width: 100%;
+  border: 1px solid #cccccc;
+  background:rgb(92, 92, 92);
+  text-align: center;
+  
+}
+.btn-box button{
+  padding: 7.5px 15px;
+  border-radius: 2px;
+  background-color:rgb(92, 91, 91);
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+h5{text-align: center;
+color: rgb(92, 91, 91);
+}
+
+.path-1{
+  font-family: 'Times New Roman', Times, serif;
+  float: left;
+  text-decoration: none;
+  margin-left: 100px;
+  margin-right: 0px;
+  color: #65737e;
+}
+.path-2{
+  font-family: 'Times New Roman', Times, serif;
+  float: left;
+  text-decoration: none;
+
+  color:black;
+}
+.path-3{
+  font-family: 'Times New Roman', Times, serif;
+  float: left;
+  text-decoration: none;
+
+  color:#65737e;
+}
+.col-26{
+  width:25%;
+  float:left;
+}
+.prod-1{
+    margin-left:40px;
+  margin-right: 60px;
+    padding: 5px;
+  text-align:center;
+position:relative;
+                margin-bottom: 50px;
+}
+
+.prod-1>.image{
+  width: 250px;
+  height: 400px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.prod-1>.name{
+  font-variant:small-caps;
+  color:black;
+}
+.prod-1>.price{
+  position:absolute;
+  left:5px;
+  bottom:5px;
+  font-family:Impact;
+  font-size:20px;
+  color:black;
+  float: left;
+}
+ 
+
